@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -169,7 +169,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4035352206679858, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -20.6
+      value: 3.28
       objectReference: {fileID: 0}
     - target: {fileID: 4035352206679858, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
       propertyPath: m_LocalPosition.z
@@ -195,6 +195,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
         type: 2}
       propertyPath: InitialModule.startSpeed.scalar
@@ -209,29 +210,67 @@ Prefab:
         type: 2}
       propertyPath: m_MaxParticleSize
       value: 0.5
+=======
+    - target: {fileID: 4035352206679858, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035352206679858, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035352206679858, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1.5556788
+>>>>>>> c25a2ef7e01de21968919c12bdbda9e89f69f29f
       objectReference: {fileID: 0}
     - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
         type: 2}
       propertyPath: ShapeModule.radius.value
+<<<<<<< HEAD
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4817687387295054, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
       propertyPath: m_LocalPosition.y
       value: 14.88
+=======
+      value: 0.50544643
+>>>>>>> c25a2ef7e01de21968919c12bdbda9e89f69f29f
       objectReference: {fileID: 0}
     - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
         type: 2}
       propertyPath: ShapeModule.angle
+<<<<<<< HEAD
       value: 0
+=======
+      value: 17.655489
+>>>>>>> c25a2ef7e01de21968919c12bdbda9e89f69f29f
       objectReference: {fileID: 0}
     - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
         type: 2}
       propertyPath: InitialModule.startSize.scalar
+<<<<<<< HEAD
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
         type: 2}
       propertyPath: NoiseModule.enabled
+=======
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817687387295054, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 13.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: InitialModule.gravityModifier.scalar
+>>>>>>> c25a2ef7e01de21968919c12bdbda9e89f69f29f
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
