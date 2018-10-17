@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: ae357da3e08e07446860ee13baac1030
+guid: 4f36052f7b65ce942b165f1f173e724a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: TowerBase
+    100000: Road
     100002: //RootNode
-    400000: TowerBase
+    400000: Road
     400002: //RootNode
-    2100000: TowerBaseMat
-    2300000: TowerBase
-    3300000: TowerBase
-    4300000: TowerBase
+    2100000: RoadMat
+    2300000: Road
+    3300000: Road
+    4300000: Road
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TowerBaseMat
+      name: RoadMat
     second: {fileID: 2100000, guid: 3cf75e187dd3d34408618a106dd61f48, type: 2}
   materials:
     importMaterials: 1

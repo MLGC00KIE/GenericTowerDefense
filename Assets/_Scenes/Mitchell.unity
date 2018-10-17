@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: {x: 15, y: 15}
-  DebugTile: {fileID: 1960627211359458, guid: d24116ca146335a48aa77629986ee1cf, type: 2}
+  DebugTile: {fileID: 100002, guid: 8b8c9eff83d66be40a1f57ace8d9d57d, type: 3}
   distanceBetweenTiles: 1
 --- !u!4 &271187066
 Transform:
@@ -194,6 +194,45 @@ Prefab:
     - target: {fileID: 4035352206679858, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 2.6464627
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: simulationSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199812519010596362, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: m_MaxParticleSize
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: ShapeModule.radius.value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817687387295054, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 14.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: ShapeModule.angle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198176078161607034, guid: 181c4883f16b70048b79fd2e29d7fa03,
+        type: 2}
+      propertyPath: NoiseModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 181c4883f16b70048b79fd2e29d7fa03, type: 2}

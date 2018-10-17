@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: ae357da3e08e07446860ee13baac1030
+guid: 8b8c9eff83d66be40a1f57ace8d9d57d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: TowerBase
+    100000: Grass
     100002: //RootNode
-    400000: TowerBase
+    400000: Grass
     400002: //RootNode
-    2100000: TowerBaseMat
-    2300000: TowerBase
-    3300000: TowerBase
-    4300000: TowerBase
+    2100000: GrassMat
+    2300000: Grass
+    3300000: Grass
+    4300000: Grass
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TowerBaseMat
+      name: GrassMat
     second: {fileID: 2100000, guid: 3cf75e187dd3d34408618a106dd61f48, type: 2}
   materials:
     importMaterials: 1

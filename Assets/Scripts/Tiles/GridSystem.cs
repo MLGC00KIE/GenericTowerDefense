@@ -12,7 +12,7 @@ public class GridSystem : MonoBehaviour {
     private GameObject[,] gridObjects;
     private void Start()
     {
-        Vector3 tileSize = new Vector3(0, 0, 0);
+        Vector3 tileSize;
         gridObjects = new GameObject[(int)size.x, (int)size.y];
 
         // x axis
@@ -25,9 +25,7 @@ public class GridSystem : MonoBehaviour {
                 // create standard tile
                 GameObject cTile = Instantiate(DebugTile);
 
-                // get size
-                tileSize = cTile.GetComponent<MeshRenderer>().bounds.size;
-
+                tileSize = new Vector3(1, 1, 1);
                 // set correct position in grid
                 cTile.transform.position = new Vector3(
                     (tileSize.x + distanceBetweenTiles) * i,

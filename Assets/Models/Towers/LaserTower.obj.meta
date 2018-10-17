@@ -11,7 +11,12 @@ ModelImporter:
     2300000: LaserTower
     3300000: LaserTower
     4300000: LaserTower
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LaserTowerMat
+    second: {fileID: 2100000, guid: 227b4b0d50cc88944ba48b5de7edebcf, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
