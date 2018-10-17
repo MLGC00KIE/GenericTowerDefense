@@ -1,1 +1,1 @@
-﻿public enum TileTypes {Blocked, Available, }
+﻿public enum TileTypes {Blocked, Available, Tower}

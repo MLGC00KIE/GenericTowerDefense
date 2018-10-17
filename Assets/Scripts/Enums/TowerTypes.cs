@@ -1,1 +1,1 @@
-﻿public enum TowerTypes {Canon, Laser, Gatling,}
+﻿public enum TowerTypes {Cannon, Laser, Gatling, Rocket}
