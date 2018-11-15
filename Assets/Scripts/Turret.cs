@@ -3,21 +3,23 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour {
 
-    private Transform target;
     [SerializeField]
-    private float range = 15f;
+    private Transform target;
+    public float range = 15f;
+    public float delayBetweenShots = 1f;
 
     public string enemyTag = "enemy";
 
-    private bool isRotateAbleTurret = true;
+    public bool isRotateAbleTurret = true;
 
-    private Transform partToRotate = null;
-    [SerializeField]
-    private float turnspeed = 10f;
+    public Transform partToRotate = null;
+    public float turnspeed = 10f;
+    public Transform projectile = null;
+    
 
     private void Start()
     {
-        InvokeRepeating("UpdateTarget", 0f, 0.5f);
+        //InvokeRepeating("UpdateTarget", 0f, 0.5f);
     }
 
     private void Update()
@@ -37,7 +39,7 @@ public class Turret : MonoBehaviour {
 
     }
 
-    void UpdateTarget()
+    public void UpdateTarget()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
         float shortestDistance = Mathf.Infinity;
