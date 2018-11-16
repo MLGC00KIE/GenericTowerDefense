@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - enemy
+  - TowerLocation
+  - bullet
+  - end
+  - GAMEMASTER
   layers:
   - Default
   - TransparentFX
