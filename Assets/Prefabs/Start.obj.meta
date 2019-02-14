@@ -8,6 +8,7 @@ ModelImporter:
     400000: Enemy
     400002: //RootNode
     2100000: palette
+    2100002: EnemyMat
     2300000: Enemy
     3300000: Enemy
     4300000: Enemy
